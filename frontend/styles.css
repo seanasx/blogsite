@@ -1,0 +1,264 @@
+body
+{
+    padding: 10px;
+}
+
+header
+{
+    padding: 5px;
+}
+
+#logo
+{
+    width: 375px;
+    margin-left: -5px;
+    margin-right: 45px;
+}
+
+#searchBar
+{
+    width: 40%;
+    font-size: 20px;
+    font-family: "Segoe UI Semilight", sans-serif;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: lightskyblue;
+}
+
+#logo, #searchBar
+{
+    height: 51px;
+}
+
+#nameTable
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: -8px;
+}
+
+td
+{
+    width: fit-content;
+}
+
+#nameLabel>p
+{
+    font-family: "Segoe UI Black", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+#logOutBtn
+{
+    background-color: #a79fff;
+}
+
+#logOutBtn:hover
+{
+    background-color: #976eff;
+}
+
+hr
+{
+    clear: both;
+}
+
+#mid
+{
+    margin-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#sidebar
+{
+    float: right;
+    background-color: #59a8ff;
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 66px;
+}
+
+#sidebar>div>h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Segoe UI Black", sans-serif;
+    color: black;
+}
+
+.sbLabels
+{
+    font-family: "Segoe UI Semilight", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: black;
+}
+
+div>h6
+{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Segoe UI Semilight", sans-serif;
+    color: black;
+}
+
+div>h6>a
+ {
+    color: #002dff;
+    font-weight: bold;
+ }
+
+div>h6>a:hover
+{
+    color: #7000ff;
+}
+
+form input
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+textarea:hover, form input:hover
+{
+    background-color: lightgrey;
+}
+
+.btn-primary
+{
+    text-align: center;
+    margin: 5px 0 7px 0;
+    border-style: none;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: 700;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.btn-primary:hover
+{
+    background-color: lightblue;
+    color: black;
+}
+
+.btn-primary:disabled
+{
+    background-color: #76b5db;
+    color: black;
+}
+
+#content
+{
+    float: left;
+    width: 67%;
+}
+
+#content>h1
+{
+    font-family: "Segoe UI Black", sans-serif;
+    margin-bottom: 20px;
+}
+
+#contentInput
+{
+    width: 100%;
+    height: 150px;
+    padding: 4px 0 4px 6px;
+    margin-bottom: 10px;
+}
+
+.titleText, .author, .contentText
+{
+    font-family: "Segoe UI Semilight", sans-serif;
+}
+
+.titleText
+{
+    font-weight: bold;
+}
+
+.author
+{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.contentText
+{
+    font-size: large;
+    font-family: "Segoe UI Semilight", sans-serif;
+    margin-top: 7px;
+    padding-bottom: 5px;
+}
+
+.blog-post-card
+{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: #cacaff;
+}
+
+.likesBtn
+{
+    border: none;
+}
+
+#likeIcon
+{
+    padding-right: 5px;
+}
+
+#profileIcon
+{
+    margin-right: 5px;
+}
+
+#profileIcon, .likesBtn
+{
+    background-color: #cacaff;
+}
+
+#profileIcon, #likeIcon
+{
+    width: 22px;
+}
+
+ul, li
+{
+    list-style-type: none;
+}
+
+li
+{
+    font-size: medium;
+    padding: 7px;
+    border-top: 1px solid #bcb5ff;
+    width: 70%;
+}
+
+.cmtLikesBtn
+{
+    margin-left: 5px;
+}
+
+.cmtLikesBtn, .likesBtn
+{
+    border: 2px solid #cacaff;
+    border-radius: 10px;
+}
+
+.cmtLikesBtn:hover, .likesBtn:hover
+{
+    border-color: #a9a1ff;
+}
